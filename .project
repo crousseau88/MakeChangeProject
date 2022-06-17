@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/com/skilldistillery/makechange/README.md</name>
+			<type>1</type>
+			<location>/Users/chadrousseau/SD/Java/workspace/MakeChange/README.md</location>
+		</link>
+	</linkedResources>
 </projectDescription>
