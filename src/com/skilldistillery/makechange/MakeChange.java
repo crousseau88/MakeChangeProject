@@ -23,7 +23,7 @@ public class MakeChange {
 		double changeNeeded = tendered - itemAmount;
 		
 		
-		int amount = (int) Math.ceil(changeNeeded * 100);  
+		int amount = (int) Math.round(changeNeeded * 100);  
 		
 		
 		int twenty = amount / 2000;
@@ -47,7 +47,6 @@ public class MakeChange {
 		int nickel = amount / 5;      
 		amount = amount % 5;      
 
-		
 		int penny = amount / 1;
 		amount = amount % 1;
 
@@ -107,31 +106,4 @@ public class MakeChange {
 			System.out.println(penny + " Pennies");
 		}
 	}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
-		
-		
-	   
-		
-		
-		
-		
-		
-		
-	
-	
 }
